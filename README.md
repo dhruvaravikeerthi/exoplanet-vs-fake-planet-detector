@@ -1,11 +1,11 @@
-# 🌌 Exoplanet vs. Fake Planet Detector
+#  Exoplanet vs. Fake Planet Detector
 App Link - http://localhost:8501/
 
 An AI-powered web app built with **Streamlit**, **XGBoost**, and **SHAP** to help astronomers automatically vet transit signals from the **NASA Kepler Space Telescope** and filter out false positives.
 
 ---
 
-## 💡 What It Does
+##  What It Does
 
 When space telescopes look for exoplanets, they measure tiny drops in a star's brightness (light curves). However, many of these dips aren't caused by planets—they are caused by eclipsing binary stars, background noise, or stellar activity. 
 
@@ -15,7 +15,7 @@ Instead of treating the AI as a black box, the app uses **SHAP (SHapley Additive
 
 ---
 
-## 🔥 Key Features
+##  Key Features
 
 - **Automated Vetting:** Analyzes observational data against thousands of Kepler transit signals.
 - **Explainable AI:** Breaks down exact feature contributions using SHAP force plots so you can see which metrics triggered the verdict.
@@ -24,7 +24,7 @@ Instead of treating the AI as a black box, the app uses **SHAP (SHapley Additive
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **Frontend:** Streamlit
 - **Machine Learning:** XGBoost, Scikit-learn
@@ -34,7 +34,7 @@ Instead of treating the AI as a black box, the app uses **SHAP (SHapley Additive
 
 ---
 
-## 📊 Key Transit Parameters Tracked
+##  Key Transit Parameters Tracked
 
 | Parameter | Code | Unit | What it measures |
 | :--- | :--- | :--- | :--- |
@@ -47,9 +47,3 @@ Instead of treating the AI as a black box, the app uses **SHAP (SHapley Additive
 
 ---
 
-## 🚀 How to Run Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/dhruvaravikeerthi/exoplanet-vs-fake-planet-detector.git](https://github.com/dhruvaravikeerthi/exoplanet-vs-fake-planet-detector.git)
-   cd exoplanet-vs-fake-planet-detector
